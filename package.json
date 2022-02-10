@@ -5,12 +5,9 @@
   "homepage": "https://mindtargetclub.github.io/pxdta2h2f/",
   "main": "server.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" ,
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-
+  
+    "test": "echo \"Error: no test specified\" && exit 1",  
+    "start": "node server.js"
   },
   "keywords": [
     "vue",
