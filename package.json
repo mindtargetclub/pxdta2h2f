@@ -5,10 +5,9 @@
   "homepage": "https://mindtargetclub.github.io/pxdta2h2f/",
   "main": "server.js",
   "scripts": {
-        "predeploy": "npm run build",
-         "deploy": "gh-pages -d build -b master -d build",
-        "start": "react-scripts start",
-        "build": "react-scripts build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -b master -d build", 
+    "start": "node server.js"
   },
   "keywords": [
     "vue",
