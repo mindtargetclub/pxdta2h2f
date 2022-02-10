@@ -1,13 +1,14 @@
 {
-  "name": "vue-js-node-js-express-mysql", 
+  "name": "vue-js-node-js-express-mysql",
   "version": "1.0.0",
   "description": "Integreate Vue with Express, Serve Vue app with Express on same Server/Port",
   "homepage": "https://mindtargetclub.github.io/pxdta2h2f/",
   "main": "server.js",
   "scripts": {
-  
-    "test": "echo \"Error: no test specified\" && exit 1",  
-    "start": "node server.js"
+        "predeploy": "npm run build",
+         "deploy": "gh-pages -d build",
+        "start": "react-scripts start",
+        "build": "react-scripts build"
   },
   "keywords": [
     "vue",
@@ -22,8 +23,11 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "build": "^0.1.4",
     "cors": "^2.8.5",
+    "deploy": "^1.0.3",
     "express": "^4.17.1",
+    "gh-pages": "^3.2.3",
     "mysql2": "^2.0.2",
     "sequelize": "^5.21.2"
   }
